@@ -1,0 +1,223 @@
+:root {
+  --mainAccent: linear-gradient(to top right, #ffc593, #bc7198, #5a77ff);
+  --pureBlack: #000000;
+  --lightGrey: #dfdfdf;
+  --pureWhite: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+
+  font-size: 1.8rem;
+
+  position: relative;
+}
+
+/****** Buttons  *******/
+.buttonOne {
+  padding: 1.2rem 2.4rem;
+  border: none;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+
+  background: var(--pureBlack);
+  color: var(--pureWhite);
+
+  cursor: pointer;
+}
+
+.buttonOne:hover {
+  background: var(--lightGrey);
+  color: var(--pureBlack);
+}
+
+/* button 2 */
+.buttonTwo {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  border: none;
+  background: transparent;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+
+  cursor: pointer;
+}
+
+.buttonTwo:hover span {
+  text-decoration: underline;
+}
+
+/* button 3 */
+.buttonThree {
+  padding: 1.2rem 2.4rem;
+  border: none;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+
+  background: var(--pureWhite);
+  color: var(--pureBlack);
+
+  cursor: pointer;
+}
+
+.buttonThree:hover {
+  background: var(--lightGrey);
+  color: var(--pureBlack);
+}
+
+/* button 4 */
+.buttonFour {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+
+  border: none;
+  background: transparent;
+
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttonFour:hover span {
+  text-decoration: underline;
+}
+
+/********** HOME  ***********/
+/********** HOME  ***********/
+/********** HOME  ***********/
+/********** HOME  ***********/
+/********** HOME  ***********/
+
+/****** Mobile HOME  ********/
+.mobileHeader {
+  height: 7.2rem;
+  padding: 2.8rem 2.4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: orange;
+  z-index: 300;
+}
+
+.menuIcon {
+  cursor: pointer;
+}
+
+.closeIcon {
+  display: none;
+
+  cursor: pointer;
+}
+
+/******  Mobile POP UP ********/
+.mobileTop {
+  position: relative;
+}
+
+.mobilePopUpBg {
+  display: none;
+  margin-top: 7.2rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.mobilePopUpMenu {
+  display: none;
+  z-index: 200;
+
+  position: fixed;
+  top: 7.2rem;
+  left: 0;
+  right: 0;
+
+  padding: 3.2rem;
+  background: var(--pureWhite);
+
+  text-align: center;
+}
+
+.mobilePopUpMenu a {
+  margin-bottom: 2rem;
+  display: block;
+
+  text-decoration: none;
+  text-transform: uppercase;
+
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2.5px;
+
+  color: var(--pureBlack);
+}
+
+.mobilePopUpMenu .grayLine {
+  margin-bottom: 2rem;
+
+  height: 0.1rem;
+  width: 100%;
+
+  background: var(--lightGrey);
+}
+
+.mobilePopUpMenu button {
+  width: 100%;
+}
+
+/****** create and share SECTION  *****/
+
+.createAndShareContainer {
+  margin-top: 7.2rem;
+}
+
+.createAndShareImg {
+  background: url(./assets/home/mobile/create-and-share.jpg);
+  background-size: cover;
+  height: 29.4rem;
+}
+
+.homeTopTextBox {
+}
