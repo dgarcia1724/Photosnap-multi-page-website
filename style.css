@@ -148,6 +148,14 @@ body {
   cursor: pointer;
 }
 
+.tabletHeaderMiddle {
+  display: none;
+}
+
+.tabletHeaderRight {
+  display: none;
+}
+
 /******  Mobile POP UP ********/
 .mobileTop {
   position: relative;
@@ -428,7 +436,7 @@ footer {
   background-color: var(--pureBlack);
 }
 
-footer > img {
+footer img {
   margin-bottom: 3.2rem;
 }
 .socials {
@@ -494,7 +502,7 @@ footer button {
   display: block;
 }
 
-footer > p {
+footer p {
   font-weight: 400;
   font-size: 1.5rem;
   letter-spacing: 0px;
@@ -505,3 +513,316 @@ footer > p {
 /********** HOME TABLET   ***********/
 /********** HOME TABLET   ***********/
 /********** HOME TABLET   ***********/
+
+@media (min-width: 45rem) {
+  body {
+    background-color: purple;
+  }
+
+  .mobileHeader {
+    height: 7.2rem;
+    padding: 2.8rem 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: orange;
+    z-index: 300;
+  }
+
+  .mobileOpenClose {
+    display: none;
+  }
+
+  .tabletHeaderMiddle {
+    display: block;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.7rem;
+  }
+
+  .tabletHeaderMiddle a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--pureBlack);
+  }
+
+  .tabletHeaderMiddle a:hover {
+    opacity: 30%;
+  }
+
+  .tabletHeaderRight {
+    display: block;
+  }
+
+  /****** create and share SECTION  *****/
+
+  .createAndShareContainer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .createAndShareImg {
+    background: url(./assets/home/tablet/create-and-share.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBoxLeft {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBoxRight {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBox {
+    padding: 17.3rem 5.4rem;
+  }
+
+  .homeTopTextBox h1 {
+    margin-bottom: 2.1rem;
+
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+  }
+
+  .homeTopTextBox p {
+    margin-bottom: 4.8rem;
+  }
+
+  .blackBgWhiteText {
+    background: var(--pureBlack);
+    color: var(--pureWhite);
+
+    position: relative;
+  }
+
+  .mobileHeroLine {
+    position: absolute;
+
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+    width: 0.6rem;
+    height: 30.4rem;
+    background: var(--mainAccent);
+  }
+
+  .whiteBgBlackText {
+    background: var(--pureWhite);
+    color: var(--pureBlack);
+  }
+
+  .beautifulStoriesContainer {
+    display: grid;
+    grid-template-columns: 30% 70%;
+  }
+
+  .beautifulStoriesImg {
+    background: url(./assets/home/tablet/beautiful-stories.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .designedForContainer {
+    display: grid;
+    grid-template-columns: 70% 30%;
+  }
+
+  .designedForImg {
+    background: url(./assets/home/tablet/designed-for-everyone.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /*********** Card Section  ***********/
+  /*********** Card Section  ***********/
+  /*********** Card Section  ***********/
+  .cardSection {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cardBox {
+    height: 50rem;
+  }
+
+  .card {
+    padding: 36.1rem 4.3rem 4rem;
+  }
+
+  .theMountains {
+    background: url(./assets/stories/desktop/mountains.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .sunsetCity {
+    background: url(./assets/stories/desktop/cityscapes.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .daysVoyage {
+    background: url(./assets/stories/desktop/18-days-voyage.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .architecturals {
+    background: url(./assets/stories/desktop/architecturals.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  /******** BOTTOM Section  ********/
+  .homeBottomSection {
+    padding: 12rem 15.6rem;
+  }
+
+  .homeBottomSectionItem {
+    margin-bottom: 8rem;
+  }
+
+  .homeBottomSectionItem img {
+    margin-bottom: 6.6rem;
+  }
+
+  /******** FOOTER  *********/
+  /******** FOOTER  *********/
+  /******** FOOTER  *********/
+  footer {
+    padding: 6.4rem 4rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footerLeft {
+    height: 12.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footerRight {
+    height: 12.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  footer img {
+    margin-bottom: unset;
+  }
+  .socials {
+    margin-bottom: unset;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+
+    color: var(--pureWhite);
+  }
+
+  .socials i {
+    cursor: pointer;
+  }
+
+  .facebook:hover {
+    color: #6173e4;
+  }
+  .youtube:hover {
+    color: #f24a59;
+  }
+  .twitter:hover {
+    color: #4dcac7;
+  }
+
+  .pinterest:hover {
+    color: #ea8460;
+  }
+
+  .instagram:hover {
+    color: #b171a2;
+  }
+
+  .footerNav {
+    margin-bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.9rem;
+  }
+
+  .footerNav a {
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+    text-decoration: none;
+    color: var(--pureWhite);
+  }
+
+  .footerNav a:hover {
+    opacity: 30%;
+  }
+
+  footer button {
+    margin: unset;
+
+    display: block;
+  }
+
+  footer p {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0px;
+
+    color: var(--lightGrey);
+  }
+}
+
+/********** HOME DESKTOP   ***********/
+/********** HOME DESKTOP   ***********/
+/********** HOME DESKTOP   ***********/
+
+@media (min-width: 80rem) {
+  body {
+    background-color: pink;
+  }
+
+  /* 1. continue here */
+  /* 2. start desktop */
+}
