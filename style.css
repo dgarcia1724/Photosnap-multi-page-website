@@ -515,10 +515,6 @@ footer p {
 /********** HOME TABLET   ***********/
 
 @media (min-width: 45rem) {
-  body {
-    background-color: purple;
-  }
-
   .mobileHeader {
     height: 7.2rem;
     padding: 2.8rem 4rem;
@@ -818,11 +814,93 @@ footer p {
 /********** HOME DESKTOP   ***********/
 /********** HOME DESKTOP   ***********/
 
-@media (min-width: 80rem) {
-  body {
-    background-color: pink;
+@media (min-width: 95rem) {
+  /****** create and share SECTION  *****/
+
+  .createAndShareContainer {
+    grid-template-columns: 40% 60%;
   }
 
-  /* 1. continue here */
-  /* 2. start desktop */
+  .createAndShareImg {
+    background: url(./assets/home/desktop/create-and-share.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBoxLeft {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBoxRight {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .homeTopTextBox {
+    padding: 17.3rem 11.2rem;
+  }
+
+  .beautifulStoriesContainer {
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+
+  .beautifulStoriesImg {
+    background: url(./assets/home/desktop/beautiful-stories.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  .designedForContainer {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
+
+  .designedForImg {
+    background: url(./assets/home/desktop/designed-for-everyone.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /*********** Card Section  ***********/
+  /*********** Card Section  ***********/
+  /*********** Card Section  ***********/
+  .cardSection {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /******** BOTTOM Section  ********/
+  .homeBottomSection {
+    padding: 12rem 16.5rem;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .homeBottomSectionItem {
+    margin-bottom: unset;
+  }
+
+  .homeBottomSectionItem img {
+    margin-bottom: 5.5rem;
+  }
+
+  /******** FOOTER  *********/
+  footer {
+    padding: 6.4rem 16.5rem;
+  }
 }
+
+/* Next Page */
