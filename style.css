@@ -903,4 +903,311 @@ footer p {
   }
 }
 
-/* Next Page */
+/********** STORIES  ***********/
+/********** STORIES  ***********/
+/********** STORIES  ***********/
+/********** STORIES  ***********/
+/********** STORIES  ***********/
+
+/****** Mobile STORIES  ********/
+/****** Mobile STORIES  ********/
+/****** Mobile STORIES  ********/
+
+/****** Top SECTION Hero  *****/
+
+.storiesHeroImg {
+  margin-top: 7.2rem;
+
+  background: url(./assets/stories/mobile/moon-of-appalacia.jpg);
+  background-size: cover;
+  height: 31.7rem;
+}
+
+.storiesHeroTextHidden {
+  display: none;
+}
+
+.storiesHeroText {
+  padding: 4.8rem 2.8rem;
+}
+
+.storiesHeroText h1 {
+  margin-bottom: 1.6rem;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+.storiesHeroText h2 {
+  margin-bottom: 1.6rem;
+
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 40px;
+  letter-spacing: 3.33px;
+
+  text-transform: uppercase;
+}
+
+.storiesHeroText p {
+  margin-bottom: 2.4rem;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  letter-spacing: 0px;
+
+  color: var(--lightGrey);
+}
+
+.storiesHeroText .storiesHeroTextSpanP {
+  margin-bottom: 2.4rem;
+
+  font-weight: 400;
+  font-size: 1.3rem;
+  letter-spacing: 0px;
+}
+
+.storiesHeroText .storiesHeroTextSpanP > span {
+  color: var(--pureWhite);
+}
+
+/******** Card Box  *********/
+/******** Card Box  *********/
+/******** Card Box  *********/
+.updateCardPadding {
+  padding: 21.5rem 4.2rem 4rem;
+}
+
+.worldTour {
+  background: url(./assets/stories/mobile/world-tour.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.unforeseenCorners {
+  background: url(./assets/stories/mobile/unforeseen-corners.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.kingAfrica {
+  background: url(./assets/stories/mobile/king-on-africa.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.tripNowhere {
+  background: url(./assets/stories/mobile/trip-to-nowhere.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.rageSea {
+  background: url(./assets/stories/mobile/rage-of-the-sea.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.runFree {
+  background: url(./assets/stories/mobile/running-free.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.behindWaves {
+  background: url(./assets/stories/mobile/behind-the-waves.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.calmWaters {
+  background: url(./assets/stories/mobile/calm-waters.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.milkyWay {
+  background: url(./assets/stories/mobile/milky-way.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.nightDarkForest {
+  background: url(./assets/stories/mobile/dark-forest.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.somwarpet {
+  background: url(./assets/stories/mobile/somwarpet.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+.landDreams {
+  background: url(./assets/stories/mobile/land-of-dreams.jpg) no-repeat;
+  background-size: cover;
+  height: 37.5rem;
+}
+
+/*********** STORIES Tablet  **********/
+/*********** STORIES Tablet  **********/
+/*********** STORIES Tablet  **********/
+@media (min-width: 45rem) {
+  body {
+    background-color: green;
+  }
+
+  /****** Top SECTION Hero  *****/
+
+  .storiesHeroImg {
+    margin-top: 7.2rem;
+
+    background: url(./assets/stories/tablet/moon-of-appalacia.jpg);
+    background-size: cover;
+    height: 65rem;
+  }
+
+  .storiesHeroText {
+    display: none;
+  }
+
+  .storiesHeroTextHidden {
+    display: block;
+
+    padding: 12.2rem 34.2rem 12.2rem 3.9rem;
+    color: var(--pureWhite);
+  }
+
+  .storiesHeroTextHidden h1 {
+    margin-bottom: 2.4rem;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+
+  .storiesHeroTextHidden h2 {
+    margin-bottom: 1.6rem;
+
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+  }
+
+  .storiesHeroTextHidden p {
+    margin-bottom: 2.4rem;
+
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 25px;
+    letter-spacing: 0px;
+
+    color: var(--lightGrey);
+  }
+
+  .storiesHeroTextHidden > .storiesHeroTextSpanP {
+    margin-bottom: 2.4rem;
+
+    font-weight: 400;
+    font-size: 1.3rem;
+    letter-spacing: 0px;
+  }
+
+  .storiesHeroTextHidden > .storiesHeroTextSpanP > span {
+    color: var(--pureWhite);
+  }
+
+  /******** Card Box  *********/
+  /******** Card Box  *********/
+  /******** Card Box  *********/
+  .updateCardPadding {
+    padding: 34rem 4.2rem 4rem;
+  }
+
+  .worldTour {
+    background: url(./assets/stories/desktop/world-tour.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .unforeseenCorners {
+    background: url(./assets/stories/desktop/unforeseen-corners.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .kingAfrica {
+    background: url(./assets/stories/desktop/king-on-africa.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .tripNowhere {
+    background: url(./assets/stories/desktop/trip-to-nowhere.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .rageSea {
+    background: url(./assets/stories/desktop/rage-of-the-sea.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .runFree {
+    background: url(./assets/stories/desktop/running-free.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .behindWaves {
+    background: url(./assets/stories/desktop/behind-the-waves.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .calmWaters {
+    background: url(./assets/stories/desktop/calm-waters.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .milkyWay {
+    background: url(./assets/stories/desktop/milky-way.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .nightDarkForest {
+    background: url(./assets/stories/desktop/dark-forest.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .somwarpet {
+    background: url(./assets/stories/desktop/somwarpet.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+
+  .landDreams {
+    background: url(./assets/stories/desktop/land-of-dreams.jpg) no-repeat;
+    background-size: cover;
+    height: 50rem;
+  }
+}
+
+/*********** STORIES Desktop  **********/
+/*********** STORIES Desktop  **********/
+/*********** STORIES Desktop  **********/
+@media (min-width: 95rem) {
+  body {
+    background-color: red;
+  }
+}

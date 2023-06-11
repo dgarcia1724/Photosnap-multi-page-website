@@ -1,126 +1,372 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Stories
-  Features
-  Pricing
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="mobileTop">
+      <header class="mobileHeader">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="tabletHeaderMiddle">
+          <a href="#">Stories</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+        </div>
+        <div class="tabletHeaderRight">
+          <button class="buttonOne">Get an invite</button>
+        </div>
+        <div class="mobileOpenClose">
+          <a class="menuIcon">
+            <img src="./assets/shared/mobile/menu.svg" alt="menu" />
+          </a>
+          <a class="closeIcon">
+            <img src="./assets/shared/mobile/close.svg" alt="close" />
+          </a>
+        </div>
+      </header>
+      <div class="mobilePopUpMenu">
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <div class="grayLine"></div>
+        <button class="buttonOne">Get an invite</button>
+      </div>
+    </section>
+    <div class="mobilePopUpBg"></div>
 
-  Get an invite
+    <!-- Top Section Hero  -->
+    <div class="storiesHeroImg">
+      <div class="storiesHeroTextHidden">
+        <h1>Last month's featured story</h1>
+        <h2>Hazy full moon of Appalachia</h2>
+        <p class="storiesHeroTextSpanP">
+          March 2nd 2020 <span>by John Appleseed</span>
+        </p>
+        <p>
+          The dissected plateau area, while not actually made up of geological
+          mountains, is popularly called "mountains," especially in eastern
+          Kentucky and West Virginia, and while the ridges are not high, the
+          terrain is extremely rugged.
+        </p>
+        <button class="buttonFour">
+          <span>Read the story</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+      </div>
+    </div>
+    <div class="storiesHeroText blackBgWhiteText">
+      <h1>Last month's featured story</h1>
+      <h2>Hazy full moon of Appalachia</h2>
+      <p class="storiesHeroTextSpanP">
+        March 2nd 2020 <span>by John Appleseed</span>
+      </p>
+      <p>
+        The dissected plateau area, while not actually made up of geological
+        mountains, is popularly called "mountains," especially in eastern
+        Kentucky and West Virginia, and while the ridges are not high, the
+        terrain is extremely rugged.
+      </p>
+      <button class="buttonFour">
+        <span>Read the story</span>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+    </div>
+    <!-- Card Section -->
+    <!-- Card Section -->
+    <!-- Card Section -->
+    <section class="cardSection">
+      <!-- 1-4 -->
+      <!-- one -->
+      <div class="cardBox">
+        <div class="theMountains card updateCardPadding">
+          <p>April 16th 2020</p>
+          <h1>The Mountains</h1>
+          <p>by John Appleseed</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
+      <!-- two -->
+      <div class="cardBox">
+        <div class="sunsetCity card updateCardPadding">
+          <p>April 14th 2020</p>
+          <h1>Sunset Cityscapes</h1>
+          <p>by Benjamin Cruz</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
+      <!-- three -->
+      <div class="cardBox">
+        <div class="daysVoyage card updateCardPadding">
+          <p>April 11th 2020</p>
+          <h1>18 Days Voyage</h1>
+          <p>by Alexei Borodin</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
+      <!-- four -->
+      <div class="cardBox">
+        <div class="architecturals card updateCardPadding">
+          <p>April 9th 2020</p>
+          <h1>Architecturals</h1>
+          <p>by Samantha Brooke</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
+      <!-- 5-8 -->
+      <!-- five -->
+      <div class="cardBox">
+        <div class="worldTour card updateCardPadding">
+          <p>April 7th 2020</p>
+          <h1>World Tour 2019</h1>
+          <p>by Timothy Wagner</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  Last month's featured story
+      <!-- six -->
+      <div class="cardBox">
+        <div class="unforeseenCorners card updateCardPadding">
+          <p>April 3rd 2020</p>
+          <h1>Unforeseen Corners</h1>
+          <p>by William Malcolm</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  Hazy full moon of Appalachia
-  March 2nd 2020
-  by John Appleseed
+      <!-- seven -->
+      <div class="cardBox">
+        <div class="kingAfrica card updateCardPadding">
+          <p>March 29th 2020</p>
+          <h1>King on Africa: Part II</h1>
+          <p>by Tim Hillenburg</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  The dissected plateau area, while not actually made up of geological mountains, 
-  is popularly called "mountains," especially in eastern Kentucky and West Virginia, 
-  and while the ridges are not high, the terrain is extremely rugged.
+      <!-- eight -->
+      <div class="cardBox">
+        <div class="tripNowhere card updateCardPadding">
+          <p>March 21st 2020</p>
+          <h1>The Trip to Nowhere</h1>
+          <p>by Felicia Rourke</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  Read the story
+      <!-- 9-12 -->
+      <!-- nine -->
+      <div class="cardBox">
+        <div class="rageSea card updateCardPadding">
+          <p>March 19th 2020</p>
+          <h1>Rage of The Sea</h1>
+          <p>by Mohammed Abdul</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 16th 2020
-  The Mountains
-  by John Appleseed
-  Read Story
+      <!-- ten -->
+      <div class="cardBox">
+        <div class="runFree card updateCardPadding">
+          <p>March 16th 2020</p>
+          <h1>Running Free</h1>
+          <p>by Michelle</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 14th 2020
-  Sunset Cityscapes
-  by Benjamin Cruz
-  Read Story
+      <!-- eleven -->
+      <div class="cardBox">
+        <div class="behindWaves card updateCardPadding">
+          <p>March 11th 2020</p>
+          <h1>Behind the Waves</h1>
+          <p>by Lamarr Wilson</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 11th 2020
-  18 Days Voyage
-  by Alexei Borodin
-  Read Story
+      <!-- twelve -->
+      <div class="cardBox">
+        <div class="calmWaters card updateCardPadding">
+          <p>March 9th 2020</p>
+          <h1>Calm Waters</h1>
+          <p>by Samantha Brooke</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 9th 2020
-  Architecturals
-  by Samantha Brooke
-  Read Story
+      <!-- 13-16 -->
+      <!-- thirteen -->
+      <div class="cardBox">
+        <div class="milkyWay card updateCardPadding">
+          <p>March 5th 2020</p>
+          <h1>The Milky Way</h1>
+          <p>by Benjamin Cruz</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
+      <!-- fourteen -->
+      <div class="cardBox">
+        <div class="nightDarkForest card updateCardPadding">
+          <p>March 4th 2020</p>
+          <h1>Night at The Dark Forest</h1>
+          <p>by Mohammed Abdul</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 7th 2020
-  World Tour 2019
-  by Timothy Wagner
-  Read Story
+      <!-- fifteen -->
+      <div class="cardBox">
+        <div class="somwarpet card updateCardPadding">
+          <p>March 1st 2020</p>
+          <h1>Somwarpet’s Beauty</h1>
+          <p>by Michelle</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
 
-  April 3rd 2020
-  Unforeseen Corners
-  by William Malcolm
-  Read Story
+      <!-- sixteen -->
+      <div class="cardBox">
+        <div class="landDreams card updateCardPadding">
+          <p>February 25th 2020</p>
+          <h1>Land of Dreams</h1>
+          <p>by William Malcolm</p>
+          <div class="thinLine"></div>
+          <div class="cardFlex">
+            <span>Read Story</span>
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="borderBottomLinearGradient"></div>
+      </div>
+    </section>
 
-  March 29th 2020
-  King on Africa: Part II
-  by Tim Hillenburg
-  Read Story
-
-  March 21st 2020
-  The Trip to Nowhere
-  by Felicia Rourke
-  Read Story
-
-  March 19th 2020
-  Rage of The Sea
-  by Mohammed Abdul
-  Read Story
-
-  March 16th 2020
-  Running Free
-  by Michelle
-  Read Story
-
-  March 11th 2020
-  Behind the Waves
-  by Lamarr Wilson
-  Read Story
-
-  March 9th 2020
-  Calm Waters
-  by Samantha Brooke
-  Read Story
-
-  March 5th 2020
-  The Milky Way
-  by Benjamin Cruz
-  Read Story
-
-  March 4th 2020
-  Night at The Dark Forest
-  by  Mohammed Abdul
-  Read Story
-
-  March 1st 2020
-  Somwarpet’s Beauty
-  by Michelle
-  Read Story
-
-  February 25th 2020
-  Land of Dreams
-  by William Malcolm
-  Read Story
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
-
-</body>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="footerLeft">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="socials">
+          <i class="facebook fa-brands fa-square-facebook"></i>
+          <i class="youtube fa-brands fa-youtube"></i>
+          <i class="twitter fa-brands fa-twitter"></i>
+          <i class="pinterest fa-brands fa-pinterest"></i>
+          <i class="instagram fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footerNav">
+        <a href="#">Home</a>
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footerRight">
+        <button class="buttonFour">
+          <span>Get an invite</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+        <p>Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
