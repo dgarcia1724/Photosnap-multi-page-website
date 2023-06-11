@@ -1058,10 +1058,6 @@ footer p {
 /*********** STORIES Tablet  **********/
 /*********** STORIES Tablet  **********/
 @media (min-width: 45rem) {
-  body {
-    background-color: green;
-  }
-
   /****** Top SECTION Hero  *****/
 
   .storiesHeroImg {
@@ -1207,7 +1203,17 @@ footer p {
 /*********** STORIES Desktop  **********/
 /*********** STORIES Desktop  **********/
 @media (min-width: 95rem) {
-  body {
-    background-color: red;
+  /****** Top SECTION Hero  *****/
+
+  .storiesHeroImg {
+    margin-top: 7.2rem;
+
+    background: url(./assets/stories/desktop/moon-of-appalacia.jpg);
+    background-size: cover;
+    height: 65rem;
+  }
+
+  .storiesHeroTextHidden {
+    padding: 12.2rem 94.1rem 12.2rem 11.2rem;
   }
 }
