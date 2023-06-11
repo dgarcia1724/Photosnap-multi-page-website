@@ -1217,3 +1217,197 @@ footer p {
     padding: 12.2rem 94.1rem 12.2rem 11.2rem;
   }
 }
+
+/********** FEATURES  ***********/
+/********** FEATURES  ***********/
+/********** FEATURES  ***********/
+/********** FEATURES  ***********/
+/********** FEATURES  ***********/
+
+/****** Mobile FEATURES  ********/
+/****** Mobile FEATURES  ********/
+/****** Mobile FEATURES  ********/
+
+/****** create and share SECTION  *****/
+
+.featuresImg {
+  background: url(./assets/features/mobile/hero.jpg);
+  background-size: cover;
+  height: 29.4rem;
+}
+
+/******** FEATURES GRID *********/
+/******** FEATURES GRID *********/
+/******** FEATURES GRID *********/
+.featuresGrid {
+  padding: 6.4rem 3.2rem 9.1rem;
+
+  text-align: center;
+}
+
+.featuresGridBox {
+  margin-bottom: 5.6rem;
+}
+
+.featuresGridBox > img {
+  margin-bottom: 4.8rem;
+}
+
+.featuresGridBox > h1 {
+  margin-bottom: 1.6rem;
+
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0px;
+}
+
+.featuresGridBox > p {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+/********** We're In Beta Section **********/
+.wereInBetaSection {
+  background: url(./assets/shared/mobile/bg-beta.jpg);
+  background-size: cover;
+  height: 28.8rem;
+
+  padding: 6.4rem 3.2rem;
+
+  color: var(--pureWhite);
+}
+
+.wereInBetaSection h1 {
+  margin-bottom: 2.4rem;
+
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 40px;
+  letter-spacing: 3.33px;
+
+  text-transform: uppercase;
+}
+
+/*********** FEATURES Tablet  **********/
+/*********** FEATURES Tablet  **********/
+/*********** FEATURES Tablet  **********/
+@media (min-width: 45rem) {
+  .featuresImg {
+    background: url(./assets/features/tablet/hero.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /******** FEATURES GRID *********/
+  /******** FEATURES GRID *********/
+  /******** FEATURES GRID *********/
+  .featuresGrid {
+    padding: 11.2rem 3.9rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-end;
+
+    gap: 1.1rem;
+  }
+
+  .featuresGridBox {
+    margin-bottom: 8.1rem;
+  }
+
+  /********** We're In Beta Section **********/
+  .wereInBetaSection {
+    background: url(./assets/shared/tablet/bg-beta.jpg);
+    background-size: cover;
+    height: 28rem;
+
+    padding: 6.8rem 3.9rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12.1rem;
+  }
+
+  .wereInBetaSection h1 {
+    margin-bottom: unset;
+
+    font-size: 4rem;
+    line-height: 48px;
+    letter-spacing: 4.17px;
+  }
+
+  .wereInBetaSection > button {
+    white-space: nowrap;
+  }
+}
+
+/*********** FEATURES Desktop  **********/
+/*********** FEATURES Desktop  **********/
+/*********** FEATURES Desktop  **********/
+@media (min-width: 95rem) {
+  .featuresImg {
+    background: url(./assets/features/desktop/hero.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /******** FEATURES GRID *********/
+  /******** FEATURES GRID *********/
+  /******** FEATURES GRID *********/
+  .featuresGrid {
+    padding: 16rem 16.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-end;
+
+    gap: 3rem;
+  }
+
+  .featuresGridBox {
+    margin-bottom: 10.4rem;
+  }
+
+  /********** We're In Beta Section **********/
+  .wereInBetaSection {
+    background: url(./assets/shared/desktop/bg-beta.jpg);
+    background-size: cover;
+    height: 28rem;
+
+    padding: 6.8rem 16.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 54.2rem;
+  }
+}
+
+/********** PRICING  ***********/
+/********** PRICING  ***********/
+/********** PRICING  ***********/
+/********** PRICING  ***********/
+/********** PRICING  ***********/
+
+/****** Mobile PRICING  ********/
+/****** Mobile PRICING  ********/
+/****** Mobile PRICING  ********/
+
+/****** create and share SECTION  *****/
+
+.featuresImgLol {
+  background: url(./assets/features/mobile/hero.jpg);
+  background-size: cover;
+  height: 29.4rem;
+}
+
+/* next section */
