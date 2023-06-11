@@ -1,68 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Stories
-  Features
-  Pricing
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="mobileTop">
+      <header class="mobileHeader">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="tabletHeaderMiddle">
+          <a href="#">Stories</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+        </div>
+        <div class="tabletHeaderRight">
+          <button class="buttonOne">Get an invite</button>
+        </div>
+        <div class="mobileOpenClose">
+          <a class="menuIcon">
+            <img src="./assets/shared/mobile/menu.svg" alt="menu" />
+          </a>
+          <a class="closeIcon">
+            <img src="./assets/shared/mobile/close.svg" alt="close" />
+          </a>
+        </div>
+      </header>
+      <div class="mobilePopUpMenu">
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <div class="grayLine"></div>
+        <button class="buttonOne">Get an invite</button>
+      </div>
+    </section>
+    <div class="mobilePopUpBg"></div>
 
-  Get an invite
+    <!-- Features Top -->
+    <!-- one -->
+    <section class="createAndShareContainer">
+      <div class="featuresImg"></div>
+      <div class="homeTopTextBox blackBgWhiteText homeTopTextBoxLeft">
+        <div class="mobileHeroLine"></div>
+        <h1>Features</h1>
+        <p>
+          We make sure all of our features are designed to be loved by every
+          aspiring and even professional photograpers who wanted to share their
+          stories.
+        </p>
+      </div>
+    </section>
 
-  Features
+    <!-- features GRID -->
+    <section class="featuresGrid">
+      <!-- one -->
+      <div class="featuresGridBox">
+        <img src="./assets/features/desktop/responsive.svg" alt="responsive" />
+        <h1>100% Responsive</h1>
+        <p>
+          No matter which the device you’re on, our site is fully responsive and
+          stories look beautiful on any screen.
+        </p>
+      </div>
+      <!-- two -->
+      <div class="featuresGridBox">
+        <img src="./assets/features/desktop/no-limit.svg" alt="no-limit" />
+        <h1>No Photo Upload Limit</h1>
+        <p>
+          Our tool has no limits on uploads or bandwidth. Freely upload in bulk
+          and share all of your stories in one go.
+        </p>
+      </div>
 
-  We make sure all of our features are designed to be loved by every aspiring and even 
-  professional photograpers who wanted to share their stories.
+      <!-- three -->
+      <div class="featuresGridBox">
+        <img src="./assets/features/desktop/embed.svg" alt="embed" />
+        <h1>Available to Embed</h1>
+        <p>
+          Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube
+          videos, Google Maps, and more.
+        </p>
+      </div>
 
-  100% Responsive
+      <!-- four -->
+      <div class="featuresGridBox">
+        <img
+          src="./assets/features/desktop/custom-domain.svg"
+          alt="custom-domain"
+        />
+        <h1>Custom Domain</h1>
+        <p>
+          With Photosnap subscriptions you can host your stories on your own
+          domain. You can also remove our branding!
+        </p>
+      </div>
 
-  No matter which the device you’re on, our site is fully responsive and stories 
-  look beautiful on any screen.
+      <!-- five -->
+      <div class="featuresGridBox">
+        <img
+          src="./assets/features/desktop/boost-exposure.svg"
+          alt="boost-exposure"
+        />
+        <h1>Boost Your Exposure</h1>
+        <p>
+          Users that viewed your story or gallery can easily get notifed of new
+          and featured stories with our built in mailing list.
+        </p>
+      </div>
 
-  No Photo Upload Limit
+      <!-- six -->
+      <div class="featuresGridBox">
+        <img src="./assets/features/desktop/drag-drop.svg" alt="drag-drop" />
+        <h1>Drag & Drop Image</h1>
+        <p>
+          Easily drag and drop your image and get beautiful shots everytime. No
+          over the top tooling to add friction to creating stories.
+        </p>
+      </div>
+    </section>
 
-  Our tool has no limits on uploads or bandwidth. Freely upload in bulk and share 
-  all of your stories in one go.
+    <!-- We're in Beta Section -->
+    <section class="wereInBetaSection">
+      <h1>We're in Beta. Get your invite today!</h1>
+      <button class="buttonFour">
+        <span>Get an invite</span>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+    </section>
 
-  Available to Embed
-
-  Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google 
-  Maps, and more. 
-
-  Custom Domain
-
-  With Photosnap subscriptions you can host your stories on your own domain. You can 
-  also remove our branding!
-
-  Boost Your Exposure
-
-  Users that viewed your story or gallery can easily get notifed of new and featured 
-  stories with our built in mailing list.
-
-  Drag & Drop Image
-
-  Easily drag and drop your image and get beautiful shots everytime. No over the top 
-  tooling to add friction to creating stories.
-
-  We're in Beta. Get your invite today!
-  
-  Get an invite
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
-
-</body>
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="footerLeft">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="socials">
+          <i class="facebook fa-brands fa-square-facebook"></i>
+          <i class="youtube fa-brands fa-youtube"></i>
+          <i class="twitter fa-brands fa-twitter"></i>
+          <i class="pinterest fa-brands fa-pinterest"></i>
+          <i class="instagram fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footerNav">
+        <a href="#">Home</a>
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footerRight">
+        <button class="buttonFour">
+          <span>Get an invite</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+        <p>Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
 </html>
