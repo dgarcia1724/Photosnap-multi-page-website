@@ -49,13 +49,48 @@ const toggleSwitch = document.querySelector(".toggleSwitch");
 const toggleMonth = document.querySelector(".toggleMonth");
 const toggleYear = document.querySelector(".toggleYear");
 
+const planDate = document.querySelectorAll(".planDate");
+const basicPlanPrice = document.querySelector(".basicPlanPrice");
+const proPlanPrice = document.querySelector(".proPlanPrice");
+const businessPlanPrice = document.querySelector(".businessPlanPrice");
+
+function perYear() {
+  planDate.forEach(function (span) {
+    span.textContent = "per year";
+  });
+}
+
+function perMonth() {
+  planDate.forEach(function (span) {
+    span.textContent = "per month";
+  });
+}
+
+function monthPrices() {
+  basicPlanPrice.textContent = "$19.00";
+  proPlanPrice.textContent = "$39.00";
+  businessPlanPrice.textContent = "$99.00";
+}
+
+function yearPrices() {
+  basicPlanPrice.textContent = "$190.00";
+  proPlanPrice.textContent = "$390.00";
+  businessPlanPrice.textContent = "$990.00";
+}
+
 function toYearly() {
   toggleYear.style.opacity = "100%";
   toggleMonth.style.opacity = "50%";
+
+  perYear();
+  yearPrices();
 }
 function toMonthly() {
   toggleMonth.style.opacity = "100%";
   toggleYear.style.opacity = "50%";
+
+  perMonth();
+  monthPrices();
 }
 
 function changeToggleSwitch() {
