@@ -1,76 +1,447 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Photosnap Website Challenge</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
 
-  Stories
-  Features
-  Pricing
+    <title>Frontend Mentor | Photosnap Website Challenge</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="mobileTop">
+      <header class="mobileHeader">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="tabletHeaderMiddle">
+          <a href="#">Stories</a>
+          <a href="#">Features</a>
+          <a href="#">Pricing</a>
+        </div>
+        <div class="tabletHeaderRight">
+          <button class="buttonOne">Get an invite</button>
+        </div>
+        <div class="mobileOpenClose">
+          <a class="menuIcon">
+            <img src="./assets/shared/mobile/menu.svg" alt="menu" />
+          </a>
+          <a class="closeIcon">
+            <img src="./assets/shared/mobile/close.svg" alt="close" />
+          </a>
+        </div>
+      </header>
+      <div class="mobilePopUpMenu">
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+        <div class="grayLine"></div>
+        <button class="buttonOne">Get an invite</button>
+      </div>
+    </section>
+    <div class="mobilePopUpBg"></div>
 
-  Get an invite
+    <!-- Pricing Top -->
+    <!-- one -->
+    <section class="createAndShareContainer">
+      <div class="pricingImg"></div>
+      <div class="homeTopTextBox blackBgWhiteText homeTopTextBoxLeft">
+        <div class="mobileHeroLine"></div>
+        <h1>Pricing</h1>
+        <p>
+          Create a your stories, Photosnap is a platform for photographers and
+          visual storytellers. It’s the simple way to create and share your
+          photos.
+        </p>
+      </div>
+    </section>
+    <!-- toggle switch section -->
+    <section class="toggleSwitchSection">
+      <div class="toggleSwitchFlex">
+        <p class="toggleMonth">Monthly</p>
+        <input type="checkbox" class="toggleSwitch" />
+        <p class="toggleYear">Yearly</p>
+      </div>
+      <!-- pricing cards -->
+      <section class="pricingCardsSection">
+        <!-- one -->
+        <div class="pricingCard pricingCardGrayBg">
+          <div class="pricingCardLeft">
+            <h1>Basic</h1>
+            <p>
+              Includes basic usage of our platform. Recommended for new and
+              aspiring photographers.
+            </p>
+          </div>
+          <div class="pricingCardRight">
+            <h2>$19.00</h2>
+            <span>per month</span>
+            <button class="buttonOne">Pick Plan</button>
+          </div>
+        </div>
+        <!-- two -->
 
-  Pricing
+        <div class="pricingCard blackBgWhiteText">
+          <div class="proCardLinearGradientLine"></div>
+          <div class="pricingCardLeft">
+            <h1>Pro</h1>
+            <p>
+              More advanced features available. Recommended for photography
+              veterans and professionals.
+            </p>
+          </div>
+          <div class="pricingCardRight">
+            <h2>$39.00</h2>
+            <span>per month</span>
+            <button class="buttonThree">Pick Plan</button>
+          </div>
+        </div>
+        <!-- three -->
+        <div class="pricingCard pricingCardGrayBg">
+          <div class="pricingCardLeft">
+            <h1>Business</h1>
+            <p>
+              Additional features available such as more detailed metrics.
+              Recommended for business owners.
+            </p>
+          </div>
+          <div class="pricingCardRight">
+            <h2>$99.00</h2>
+            <span>per month</span>
+            <button class="buttonOne">Pick Plan</button>
+          </div>
+        </div>
+      </section>
+    </section>
 
-  Create a your stories, Photosnap is a platform for photographers and visual storytellers. 
-  It’s the simple way to create and share your photos.
+    <!-- the features section -->
+    <section class="theFeaturesSection">
+      <div class="mobileTheFeaturesSection">
+        <h2>The Features</h2>
+        <div class="mobileTheFeaturesSectionLine firstBlackLine"></div>
+        <!-- one -->
+        <h2>Unlimited Story Posting</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Pro</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- two -->
+        <h2>Unlimited Photo Upload</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Pro</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- three -->
+        <h2>Embedding Custom Content</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- four -->
+        <h2>Customize Metadata</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- five -->
+        <h2>Advanced Metrics</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- six -->
+        <h2>Photo Downloads</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- seven -->
+        <h2>Search Engine Indexing</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- eight -->
+        <h2>Custom Analytics</h2>
+        <div class="mobileTheFeaturesSectionFlex">
+          <div>
+            <p>Basic</p>
+          </div>
+          <div>
+            <p>Pro</p>
+          </div>
+          <div>
+            <p>Business</p>
+            <img src="./assets/pricing/desktop/check.svg" alt="check" />
+          </div>
+        </div>
+        <div class="mobileTheFeaturesSectionLine"></div>
+        <!-- mobile END -->
+      </div>
+      <!-- Tablet Start -->
+      <div class="tabletTheFeaturesSection">
+        <h1>Compare</h1>
+        <div class="tabletTheFeaturesSectionContainer">
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>The Features</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <h2>Basic</h2>
+              <h2>Pro</h2>
+              <h2>Business</h2>
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine firstBlackLine"></div>
+          <!-- one -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Unlimited Story Posting</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- two -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Unlimited Photo Upload</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- three -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Embedding Custom Content</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- four -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Customize Metadata</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- five -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Advanced Metrics</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- six -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Photo Downloads</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- seven -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Search Engine Indexing</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- eight -->
+          <div class="tabletTheFeaturesSectionFlex">
+            <h2>Custom Analytics</h2>
+            <div class="tabletTheFeaturesSectionFlexRight">
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img
+                class="visibilityHidden"
+                src="./assets/pricing/desktop/check.svg"
+                alt="check"
+              />
+              <img src="./assets/pricing/desktop/check.svg" alt="check" />
+            </div>
+          </div>
+          <div class="mobileTheFeaturesSectionLine"></div>
+          <!-- tablet END -->
+        </div>
+      </div>
+    </section>
+    <!-- We're in Beta Section -->
+    <section class="wereInBetaSection">
+      <h1>We're in Beta. Get your invite today!</h1>
+      <button class="buttonFour">
+        <span>Get an invite</span>
+        <i class="fa-solid fa-arrow-right-long"></i>
+      </button>
+    </section>
 
-  Monthly
-  Yearly
+    <!-- FOOTER -->
+    <!-- FOOTER -->
+    <footer>
+      <div class="footerLeft">
+        <img src="./assets/shared/desktop/logo.svg" alt="logo" />
+        <div class="socials">
+          <i class="facebook fa-brands fa-square-facebook"></i>
+          <i class="youtube fa-brands fa-youtube"></i>
+          <i class="twitter fa-brands fa-twitter"></i>
+          <i class="pinterest fa-brands fa-pinterest"></i>
+          <i class="instagram fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="footerNav">
+        <a href="#">Home</a>
+        <a href="#">Stories</a>
+        <a href="#">Features</a>
+        <a href="#">Pricing</a>
+      </div>
+      <div class="footerRight">
+        <button class="buttonFour">
+          <span>Get an invite</span>
+          <i class="fa-solid fa-arrow-right-long"></i>
+        </button>
+        <p>Copyright 2019. All Rights Reserved</p>
+      </div>
+    </footer>
 
-  Basic
-  Includes basic usage of our platform. Recommended for new and aspiring photographers.
-  $19.00 per month
-  $190.00 per year
-  Pick Plan
-
-  Pro
-  More advanced features available. Recommended for photography veterans and professionals.
-  $39.00 per month
-  $390.00 per year
-  Pick Plan
-
-  Business
-  Additional features available such as more detailed metrics. Recommended for business owners.
-  $99.00 per month
-  $990.00 per year
-  Pick Plan
-
-  Compare
-
-  The Features
-
-  Basic
-  Pro
-  Business
-
-  Unlimited Story Posting
-  Unlimited Photo Upload
-  Embedding Custom Content
-  Customize Metadata
-  Advanced Metrics
-  Photo Downloads
-  Search Engine Indexing
-  Custom Analytics
-
-  We're in Beta. Get your invite today!
-  
-  Get an invite
-
-  Home
-  Stories
-  Features
-  Pricing
-
-  Get an invite
-
-  Copyright 2019. All Rights Reserved
-
-</body>
+    <!-- Tablet Extra -->
+    <h5>$190.00 per year</h5>
+    <h5>$390.00 per year</h5>
+    <h5>$990.00 per year</h5>
+    <script src="app.js"></script>
+  </body>
 </html>
