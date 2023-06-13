@@ -1404,10 +1404,317 @@ footer p {
 
 /****** create and share SECTION  *****/
 
-.featuresImgLol {
-  background: url(./assets/features/mobile/hero.jpg);
+.pricingImg {
+  background: url(./assets/pricing/mobile/hero.jpg);
   background-size: cover;
   height: 29.4rem;
 }
 
-/* next section */
+/******** Toggle Switch Section  */
+.toggleSwitchSection {
+  padding: 6.4rem 2.8rem;
+}
+
+.toggleSwitchFlex {
+  margin-bottom: 4rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 3.2rem;
+}
+
+.toggleSwitchFlex > p {
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0px;
+
+  opacity: 50%;
+}
+
+.toggleSwitch {
+  position: relative;
+
+  width: 6.4rem;
+  height: 3.2rem;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background: var(--lightGrey);
+  border-radius: 16px;
+  cursor: pointer;
+  box-shadow: inset 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
+.toggleSwitch::before {
+  content: "";
+  width: 2.4rem;
+  height: 2.4rem;
+  background: var(--pureBlack);
+  border-radius: 50px;
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0.4rem;
+  transition: all 0.5s linear;
+}
+
+.toggleSwitch:checked {
+  background: var(--pureBlack);
+}
+
+.toggleSwitch:checked::before {
+  background: var(--pureWhite);
+
+  left: unset;
+  transform: translate(3.6rem, -50%);
+}
+
+/********* PRICING CARD SECTION  **********/
+.pricingCardsSection {
+}
+
+.pricingCard {
+  margin-bottom: 2.4rem;
+  padding: 5.6rem 2.2rem 4rem;
+
+  text-align: center;
+}
+
+.pricingCardGrayBg {
+  background: #f5f5f5;
+}
+
+.pricingCard h1 {
+  margin-bottom: 1.8rem;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: 0px;
+}
+
+.pricingCard p {
+  margin-bottom: 4rem;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.pricingCard h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  letter-spacing: 4.17px;
+}
+
+.pricingCard span {
+  display: block;
+
+  margin-bottom: 4rem;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  letter-spacing: 0px;
+}
+
+.pricingCard button {
+  width: 100%;
+}
+
+.proCardLinearGradientLine {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 0.6rem;
+  width: 100%;
+
+  background: var(--mainAccent);
+}
+
+/******* The Features Section  *********/
+
+.tabletTheFeaturesSection {
+  display: none;
+}
+
+.theFeaturesSection {
+  padding: 0 2.8rem 6.4rem;
+}
+
+.mobileTheFeaturesSection h2 {
+  margin-bottom: 1.6rem;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+.mobileTheFeaturesSection p {
+  opacity: 50%;
+
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: 1.67px;
+}
+
+.mobileTheFeaturesSection h2:first-of-type {
+  margin-bottom: 2.3rem;
+}
+
+.mobileTheFeaturesSectionLine {
+  margin-bottom: 2.3rem;
+
+  width: 100%;
+  height: 0.1rem;
+
+  background-color: var(--lightGrey);
+}
+
+.firstBlackLine {
+  background-color: var(--pureBlack);
+}
+
+.mobileTheFeaturesSectionFlex {
+  margin-bottom: 2.4rem;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7rem;
+}
+
+.mobileTheFeaturesSectionFlex > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+/****** Tablet PRICING  ********/
+/****** Tablet PRICING  ********/
+/****** Tablet PRICING  ********/
+
+@media (min-width: 45rem) {
+  body {
+    background-color: pink;
+  }
+
+  /****** create and share SECTION  *****/
+
+  .pricingImg {
+    background: url(./assets/pricing/tablet/hero.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /******** Toggle Switch Section  */
+  .toggleSwitchSection {
+    padding: 11.2rem 4rem;
+  }
+
+  /********* PRICING CARD SECTION  **********/
+  .pricingCardsSection {
+  }
+
+  .pricingCard {
+    margin-bottom: 2.4rem;
+    padding: 4rem;
+
+    text-align: left;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 6.1rem;
+  }
+
+  /******* The Features Section  *********/
+
+  .tabletTheFeaturesSection {
+    display: block;
+  }
+
+  .theFeaturesSection {
+    padding: 0 4rem 11.2rem;
+  }
+
+  .mobileTheFeaturesSection {
+    display: none;
+  }
+
+  .tabletTheFeaturesSection > h1 {
+    margin-bottom: 6.4rem;
+
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 4.17px;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tabletTheFeaturesSection h2 {
+    margin-bottom: 2.3rem;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+  }
+
+  .tabletTheFeaturesSectionFlex {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .tabletTheFeaturesSectionFlexRight {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+
+    align-items: center;
+    place-items: center;
+  }
+
+  .visibilityHidden {
+    visibility: hidden;
+  }
+}
+
+/****** Desktop PRICING  ********/
+/****** Desktop PRICING  ********/
+/****** Desktop PRICING  ********/
+
+@media (min-width: 95rem) {
+  body {
+    background-color: orange;
+  }
+
+  /* 1. continue here */
+  /* 1. continue here */
+  /* 1. continue here */
+  /****** create and share SECTION  *****/
+
+  .pricingImg {
+    background: url(./assets/pricing/tablet/hero.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
+  /******** Toggle Switch Section  */
+}
