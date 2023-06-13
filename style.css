@@ -1600,10 +1600,6 @@ footer p {
 /****** Tablet PRICING  ********/
 
 @media (min-width: 45rem) {
-  body {
-    background-color: pink;
-  }
-
   /****** create and share SECTION  *****/
 
   .pricingImg {
@@ -1698,13 +1694,6 @@ footer p {
 /****** Desktop PRICING  ********/
 
 @media (min-width: 95rem) {
-  body {
-    background-color: orange;
-  }
-
-  /* 1. continue here */
-  /* 1. continue here */
-  /* 1. continue here */
   /****** create and share SECTION  *****/
 
   .pricingImg {
@@ -1716,5 +1705,107 @@ footer p {
     grid-row: 1 / span 1;
   }
 
+  .pricingImg {
+    background: url(./assets/pricing/desktop/hero.jpg);
+    background-size: cover;
+    height: unset;
+
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+
   /******** Toggle Switch Section  */
+  .toggleSwitchSection {
+    padding: 12rem 16.5rem 16rem;
+  }
+
+  .toggleSwitchFlex {
+    margin-bottom: 4.8rem;
+  }
+
+  /********* PRICING CARD SECTION  **********/
+  .pricingCardsSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 3rem;
+  }
+
+  .pricingCard {
+    margin-bottom: unset;
+    padding: unset;
+
+    display: block;
+    text-align: center;
+  }
+  .pricingCardGrayBg {
+    padding: 5.6rem 4rem 4rem;
+    background: #f5f5f5;
+
+    width: 35rem;
+    height: 40.7rem;
+  }
+
+  .proCardDesktop {
+    padding: 8.8rem 4rem 7.1rem;
+    width: 35rem;
+    height: 47rem;
+  }
+
+  /******* The Features Section  *********/
+
+  .tabletTheFeaturesSection {
+    display: block;
+  }
+
+  .theFeaturesSection {
+    padding: 0 35.5rem 16rem;
+  }
+
+  .mobileTheFeaturesSection {
+    display: none;
+  }
+
+  .tabletTheFeaturesSection > h1 {
+    margin-bottom: 6.4rem;
+
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: 4.17px;
+
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tabletTheFeaturesSection h2 {
+    margin-bottom: 2.3rem;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+  }
+
+  .tabletTheFeaturesSectionFlex {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .tabletTheFeaturesSectionFlexRight {
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+
+    align-items: center;
+    place-items: center;
+  }
+
+  .visibilityHidden {
+    visibility: hidden;
+  }
 }
